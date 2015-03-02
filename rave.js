@@ -30,5 +30,6 @@ $("<audio></audio>").attr({
 	
     'src': p,
     'autoplay':'autoplay',
+    'loop' : 'loop',
     'type' :'audio/mpeg'
 }).appendTo("body");
